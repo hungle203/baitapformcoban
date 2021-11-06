@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <style>
+        table { width: 500px;
+        height: 300px;}
+    td{
+        width: 25%;
+    }
+    .title1 {
+        text-align: right;
+        color: blue;
+    }
+    .title2 {
+        color: orange;
+    }
+    table, tr, td, th {
+        background-color: white;
+    padding: 7px;
+     }
+    form {
+        background-color: aqua;
+        padding: 10px;
+        width: 500px;
+    }
+
+
+    </style>
+<form>
+    
+    <table>
+        <tr>
+            <th style="background-color: orange" colspan="4">Sở thích của bạn</th>
+        </tr>
+        <tr>
+            <td class="title1">Họ và tên</td>
+            <td><input type="text"></td>
+        </tr>
+        <td class="title1">Email</td>
+        <td> <input type="text"></td>
+        <tr>
+            <td style="color: blue" rowspan="3">Sở thích</td>
+            <td class="title2"><input type="checkbox">Thể thao</td>
+            <td class="title2"><input type="checkbox">Âm nhạc</td>
+            <td class="title2"><input type="checkbox">Đọc sách</td>
+        </tr>
+            <tr>
+            <td class="title2"> <input type="checkbox">Chơi game</td>
+            <td class="title2"> <input type="checkbox">Lướt Web</td>
+            <td class="title2"> <input type="checkbox">Điện ảnh</td>
+        </tr>
+        <tr>
+            <td class="title2"><input type="checkbox">Du lịch</td>
+        </tr>
+        <td colspan="3"><input type="submit" value="Gửi thông tin"><input type="reset" value="nhập lại"></td>
+    </table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
